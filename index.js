@@ -81,6 +81,10 @@ StorageBase.prototype.setItem = function(key, value) {
     return localStorage.setItem(key, value);
 }
 
+/*StorageBase.getInstance = (function {
+    // ...
+});*/
+
 const Storage1 = (function() {
     let instance = null;
     return function() {
